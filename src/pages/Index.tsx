@@ -245,9 +245,7 @@ const Index = () => {
                   которая помогает современникам понять, как жили наши предки, какие традиции 
                   они хранили, какие дома строили, какие песни пели.
                 </p>
-                <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-                  Проект объединяет три формата документирования:
-                </p>
+                <p className="text-lg leading-relaxed text-muted-foreground mb-6">Проект объединяет два формата документирования:</p>
                 <ul className="space-y-4 mb-6">
                   <li className="flex items-start gap-3">
                     <Icon name="Camera" size={24} className="text-primary flex-shrink-0 mt-1" />
