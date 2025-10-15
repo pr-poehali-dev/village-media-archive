@@ -206,10 +206,6 @@ const Index = () => {
                       <h3 className="text-xl font-serif font-bold mb-2 text-card-foreground">{audio.title}</h3>
                       <div className="flex items-center gap-4 text-muted-foreground text-sm mb-4">
                         <span className="flex items-center gap-1">
-                          <Icon name="Clock" size={16} />
-                          {audio.duration}
-                        </span>
-                        <span className="flex items-center gap-1">
                           <Icon name="Calendar" size={16} />
                           {audio.year}
                         </span>
