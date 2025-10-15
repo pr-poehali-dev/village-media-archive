@@ -257,13 +257,6 @@ const Index = () => {
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Icon name="Video" size={24} className="text-primary flex-shrink-0 mt-1" />
-                    <span className="text-muted-foreground">
-                      <strong className="text-card-foreground">Видеоматериалы</strong> — документальные съемки, 
-                      показывающие жизнь деревень в динамике
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-3">
                     <Icon name="Headphones" size={24} className="text-primary flex-shrink-0 mt-1" />
                     <span className="text-muted-foreground">
                       <strong className="text-card-foreground">Аудиозаписи</strong> — интервью с жителями, 
