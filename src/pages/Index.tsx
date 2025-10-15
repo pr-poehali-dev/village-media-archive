@@ -30,7 +30,7 @@ const Index = () => {
     {
       id: 3,
       title: 'Дома села Введенская Готня',
-      image: 'https://cdn.poehali.dev/projects/48616b9b-a20a-44a0-b350-1387008dc829/files/f4ca2028-e8eb-4d5a-a132-dc94fa7408a5.jpg',
+      image: 'https://cdn.poehali.dev/files/7f628ef2-23e5-4ebb-8a73-15971277dddd.jpg',
       year: '1968',
       description: 'Традиционные избы в селе Белогорье'
     }
