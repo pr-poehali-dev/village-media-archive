@@ -106,7 +106,7 @@ const Index = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex items-end p-8">
               <div className="text-primary-foreground flex items-center justify-between w-full">
                 <div>
-                  <p className="text-3xl font-serif font-bold">Село Красное, Храм святого Илии Пророка
+                  <p className="text-3xl font-serif font-extrabold">Село Красное, Храм святого Илии Пророка
 </p>
                   <p className="mt-2 text-lg font-light">Живописный храм, одно из достопримечательностей села</p>
                 </div>
