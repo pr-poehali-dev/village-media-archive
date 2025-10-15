@@ -126,7 +126,7 @@ const Index = () => {
               <CardContent className="p-6 text-center">
                 <Icon name="Image" size={48} className="mx-auto mb-4 text-primary" />
                 <h3 className="text-2xl font-serif font-bold mb-2 text-card-foreground">Фотоархив</h3>
-                <p className="text-muted-foreground">Более 500 уникальных снимков деревень и сел</p>
+                <p className="text-muted-foreground">Уникальные снимки деревень и сел</p>
               </CardContent>
             </Card>
             <Card className="border-4 border-accent bg-card hover:shadow-xl transition-shadow animate-fade-up" style={{ animationDelay: '0.4s' }}>
@@ -179,7 +179,7 @@ const Index = () => {
                 </div>
                 <CardContent className="p-6">
                   <h3 className="text-2xl font-serif font-bold mb-2 text-card-foreground">{item.title}</h3>
-                  <p className="text-muted-foreground mb-4">{item.description}</p>
+                  <p className="text-muted-foreground mb-4 text-base">{item.description}</p>
                   <div className="flex gap-2">
                     <Button className="flex-1 bg-primary hover:bg-primary/90 text-primary-foreground font-serif flex items-center justify-center gap-2">
                       <Icon name="Play" size={16} />
