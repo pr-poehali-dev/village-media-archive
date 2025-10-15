@@ -240,11 +240,7 @@ const Index = () => {
                   <span className="text-4xl font-serif font-bold text-primary float-left mr-4 leading-none">А</span>
                   рхив Белогорья — это проект, посвященный сохранению визуальной и аудиальной памяти деревень и сел Белгородской области.
                 </p>
-                <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-                  Каждая фотография, каждое видео и каждая аудиозапись — это частица истории, 
-                  которая помогает современникам понять, как жили наши предки, какие традиции 
-                  они хранили, какие дома строили, какие песни пели.
-                </p>
+                <p className="text-lg leading-relaxed text-muted-foreground mb-6">Каждая фотография и аудиозапись — это частица истории, которая в будущем поможет современникам понять, как жили их предки, какие традиции они хранили, какие дома строили, какие песни пели.</p>
                 <p className="text-lg leading-relaxed text-muted-foreground mb-6">Проект объединяет два формата документирования:</p>
                 <ul className="space-y-4 mb-6">
                   <li className="flex items-start gap-3">
