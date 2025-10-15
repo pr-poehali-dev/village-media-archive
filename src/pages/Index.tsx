@@ -25,7 +25,7 @@ const Index = () => {
       title: 'Улицы села Никольское',
       image: 'https://cdn.poehali.dev/projects/48616b9b-a20a-44a0-b350-1387008dc829/files/d4ed00f7-d273-4206-8bbc-baa4d72a3ce5.jpg',
       year: '1962',
-      description: 'Заброшенная церковь в деревне Михайловка'
+      description: 'Навевающие уют сельские улицы'
     },
     {
       id: 3,
