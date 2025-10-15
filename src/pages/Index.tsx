@@ -38,7 +38,7 @@ const Index = () => {
 
   const audioRecordings = [
     { id: 1, title: 'Рассказ жительницы села Никольское', duration: '12:34', year: '2025' },
-    { id: 2, title: 'Воспоминания о сельском быте', duration: '18:22', year: '2025' }
+    { id: 2, title: 'Воспоминания о сельском быте села Красное', duration: '18:22', year: '2025' }
   ];
 
   return (
