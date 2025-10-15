@@ -160,7 +160,7 @@ const Index = () => {
                 className="border-4 border-primary/20 bg-card overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300 animate-fade-up"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <div className="relative">
+                <div className="relative group">
                   <img 
                     src={item.image} 
                     alt={item.title} 
@@ -169,13 +169,28 @@ const Index = () => {
                   <div className="absolute top-2 right-2 bg-primary/90 text-primary-foreground px-3 py-1 rounded font-serif font-bold">
                     {item.year}
                   </div>
+                  <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                    <Button 
+                      size="lg"
+                      className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-serif flex items-center gap-2"
+                    >
+                      <Icon name="Play" size={24} />
+                      Слушать историю
+                    </Button>
+                  </div>
                 </div>
                 <CardContent className="p-6">
                   <h3 className="text-2xl font-serif font-bold mb-2 text-card-foreground">{item.title}</h3>
-                  <p className="text-muted-foreground">{item.description}</p>
-                  <Button className="mt-4 w-full bg-primary hover:bg-primary/90 text-primary-foreground font-serif">
-                    Подробнее
-                  </Button>
+                  <p className="text-muted-foreground mb-4">{item.description}</p>
+                  <div className="flex gap-2">
+                    <Button className="flex-1 bg-primary hover:bg-primary/90 text-primary-foreground font-serif flex items-center justify-center gap-2">
+                      <Icon name="Play" size={16} />
+                      Аудио
+                    </Button>
+                    <Button variant="outline" className="flex-1 font-serif">
+                      Подробнее
+                    </Button>
+                  </div>
                 </CardContent>
               </Card>
             ))}
