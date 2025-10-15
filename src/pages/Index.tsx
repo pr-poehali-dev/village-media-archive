@@ -108,7 +108,7 @@ const Index = () => {
                 <div>
                   <p className="text-3xl font-serif font-bold">Село Красное, Храм святого Илии Пророка
 </p>
-                  <p className="text-lg mt-2">Живописная церковь, одно из достопримечательностей</p>
+                  <p className="mt-2 text-lg font-light">Живописный храм, одно из достопримечательностей села</p>
                 </div>
                 <Button 
                   size="lg"
