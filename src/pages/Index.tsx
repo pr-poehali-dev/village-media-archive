@@ -106,8 +106,8 @@ const Index = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex items-end p-8">
               <div className="text-primary-foreground flex items-center justify-between w-full">
                 <div>
-                  <p className="text-3xl font-serif font-bold">Село Красное, 1956</p>
-                  <p className="text-lg mt-2">Старинная церковь на окраине села</p>
+                  <p className="text-3xl font-serif font-bold">Село Красное</p>
+                  <p className="text-lg mt-2">Од</p>
                 </div>
                 <Button 
                   size="lg"
