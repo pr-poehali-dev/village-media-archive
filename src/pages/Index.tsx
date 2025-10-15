@@ -306,7 +306,6 @@ const Index = () => {
               <Icon name="Mic" size={28} />
               <Icon name="Map" size={28} />
             </div>
-            <p className="mt-8 text-sm text-primary-foreground/70">© 2024 Фотоархив Белгородской области</p>
           </div>
         </div>
       </footer>
