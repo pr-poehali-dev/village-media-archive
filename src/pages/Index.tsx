@@ -23,7 +23,7 @@ const Index = () => {
     {
       id: 2,
       title: 'Улицы села Никольское',
-      image: 'https://cdn.poehali.dev/projects/48616b9b-a20a-44a0-b350-1387008dc829/files/d4ed00f7-d273-4206-8bbc-baa4d72a3ce5.jpg',
+      image: 'https://cdn.poehali.dev/files/7299aa9f-5cd3-409d-8096-d40c2ab4d3c6.jpg',
       year: '1962',
       description: 'Навевающие уют сельские улицы'
     },
