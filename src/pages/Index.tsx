@@ -238,8 +238,7 @@ const Index = () => {
               <div className="prose prose-lg max-w-none">
                 <p className="text-xl leading-relaxed text-card-foreground mb-6">
                   <span className="text-4xl font-serif font-bold text-primary float-left mr-4 leading-none">А</span>
-                  рхив Белогорья — это проект фотографа-документалиста, посвященный сохранению 
-                  визуальной и аудиальной памяти деревень и сел Белгородской области.
+                  рхив Белогорья — это проект, посвященный сохранению визуальной и аудиальной памяти деревень и сел Белгородской области.
                 </p>
                 <p className="text-lg leading-relaxed text-muted-foreground mb-6">
                   Каждая фотография, каждое видео и каждая аудиозапись — это частица истории, 
