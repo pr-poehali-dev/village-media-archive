@@ -16,7 +16,7 @@ const Index = () => {
     {
       id: 1,
       title: 'Село Красное',
-      image: 'https://cdn.poehali.dev/projects/48616b9b-a20a-44a0-b350-1387008dc829/files/3651126f-eba0-442b-abb8-8eb4e497b09e.jpg',
+      image: 'https://cdn.poehali.dev/files/ba9291b8-13b0-4419-be06-060de5f071eb.jpg',
       year: '1956',
       description: 'Старинная церковь на окраине села'
     },
