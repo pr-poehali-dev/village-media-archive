@@ -88,10 +88,7 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12 animate-fade-in">
             <h2 className="text-5xl md:text-7xl font-bold mb-6 text-foreground font-serif">Живые страницы Белгородчины</h2>
-            <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Документальный архив деревень и сел Белгородской области. 
-              Фотографии, видео и аудиозаписи, хранящие историю наших поселений.
-            </p>
+            <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">Документальный архив деревень и сел Белгородской области. Фотографии и аудиозаписи, хранящие историю наших поселений.</p>
           </div>
 
           <div className="relative border-8 border-primary/30 rounded-lg overflow-hidden shadow-2xl animate-fade-up" style={{ animationDelay: '0.2s' }}>
