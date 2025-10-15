@@ -104,9 +104,18 @@ const Index = () => {
               className="w-full h-[500px] object-cover sepia-[0.3]"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex items-end p-8">
-              <div className="text-primary-foreground">
-                <p className="text-3xl font-serif font-bold">Село Красное, 1956</p>
-                <p className="text-lg mt-2">Старинная церковь на окраине села</p>
+              <div className="text-primary-foreground flex items-center justify-between w-full">
+                <div>
+                  <p className="text-3xl font-serif font-bold">Село Красное, 1956</p>
+                  <p className="text-lg mt-2">Старинная церковь на окраине села</p>
+                </div>
+                <Button 
+                  size="lg"
+                  className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-serif flex items-center gap-2"
+                >
+                  <Icon name="Play" size={20} />
+                  Аудиорассказ
+                </Button>
               </div>
             </div>
           </div>
