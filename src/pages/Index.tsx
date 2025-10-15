@@ -99,7 +99,7 @@ const Index = () => {
 
           <div className="relative border-8 border-primary/30 rounded-lg overflow-hidden shadow-2xl animate-fade-up" style={{ animationDelay: '0.2s' }}>
             <img 
-              src="https://cdn.poehali.dev/projects/48616b9b-a20a-44a0-b350-1387008dc829/files/3651126f-eba0-442b-abb8-8eb4e497b09e.jpg"
+              src="https://cdn.poehali.dev/files/50df6bb4-21e3-416d-8b2f-767600e7f626.jpg"
               alt="Архив Белогорья" 
               className="w-full h-[500px] object-cover sepia-[0.3]"
             />
