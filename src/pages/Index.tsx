@@ -15,7 +15,7 @@ const Index = () => {
   const galleryItems = [
     {
       id: 1,
-      title: 'Село Красное',
+      title: 'Храм святого Илии Пророка',
       image: 'https://cdn.poehali.dev/files/ba9291b8-13b0-4419-be06-060de5f071eb.jpg',
       year: '1956',
       description: 'Старинная церковь на окраине села'
