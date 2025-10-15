@@ -115,19 +115,12 @@ const Index = () => {
             </div>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6 mt-12">
+          <div className="grid md:grid-cols-2 gap-6 mt-12">
             <Card className="border-4 border-accent bg-card hover:shadow-xl transition-shadow animate-fade-up" style={{ animationDelay: '0.3s' }}>
               <CardContent className="p-6 text-center">
                 <Icon name="Image" size={48} className="mx-auto mb-4 text-primary" />
                 <h3 className="text-2xl font-serif font-bold mb-2 text-card-foreground">Фотоархив</h3>
                 <p className="text-muted-foreground">Уникальные снимки деревень и сел</p>
-              </CardContent>
-            </Card>
-            <Card className="border-4 border-accent bg-card hover:shadow-xl transition-shadow animate-fade-up" style={{ animationDelay: '0.4s' }}>
-              <CardContent className="p-6 text-center">
-                <Icon name="Video" size={48} className="mx-auto mb-4 text-primary" />
-                <h3 className="text-2xl font-serif font-bold mb-2 text-card-foreground">Видеоматериалы</h3>
-                <p className="text-muted-foreground">Документальные съемки сельской жизни</p>
               </CardContent>
             </Card>
             <Card className="border-4 border-accent bg-card hover:shadow-xl transition-shadow animate-fade-up" style={{ animationDelay: '0.5s' }}>
